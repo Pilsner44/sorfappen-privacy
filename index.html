@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <title>Integritetspolicy - JG Tech</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 40px auto;
+      line-height: 1.6;
+      color: #333;
+    }
+    h1 {
+      color: #0056a3;
+    }
+  </style>
+</head>
+<body>
+  <h1>Integritetspolicy</h1>
+  <p><strong>Senast uppdaterad:</strong> 1 december 2025</p>
+
+  <p>Denna app ("Sörf Appen") utvecklad av <strong>JG Tech</strong> (Johan Gummesson) respekterar din integritet. 
+  Vi samlar inte in, lagrar eller delar personlig information utöver det som krävs för appens funktion.</p>
+
+  <h2>Behörigheter</h2>
+  <p>Appen använder följande behörigheter:</p>
+  <ul>
+    <li><strong>Kamera:</strong> används för att ta bilder i samband med felanmälan.</li>
+    <li><strong>Notiser:</strong> används för att skicka information och uppdateringar kopplade till felanmälningar och beställningar. 
+        Notiserna innehåller endast relevant information om ärendet och ingen känslig personlig data.</li>
+  </ul>
+
+  <h2>Datahantering</h2>
+  <ul>
+    <li>Bilder som tas via appen skickas tillsammans med felanmälan och lagras i Firebase Storage.</li>
+    <li>Bilderna finns kvar så länge felanmälan är aktiv och tas bort när ärendet klarrapporteras.</li>
+    <li>Utöver bilder lagras viss information i Firebase Firestore, exempelvis:
+      <ul>
+        <li>Anställningsnummer (för att koppla felanmälan till rätt användare).</li>
+        <li>Telefonnummer som inte är kopplade till enskilda personer.</li>
+        <li>Beskrivningstext och detaljer från felanmälan.</li>
+        <li>Information om produkter och beställningar kopplade till ärendet.</li>
+		<li>Information om fordon och datum för service och besiktning av dessa.</li>
+      </ul>
+    </li>
+    <li>Ingen känslig personlig information såsom personnummer lagras.</li>
+    <li>Data delas inte med tredje part utöver Firebase, som används för lagring och hantering.</li>
+  </ul>
+
+  <h2>Tredjepartstjänster</h2>
+  <p>Appen använder Firebase‑tjänster (Firestore och Storage) från Google för att lagra och hantera data kopplad till felanmälningar. 
+  Firebase kan behandla data enligt sina egna villkor och integritetspolicy.</p>
+
+  <h2>Ändringar</h2>
+  <p>Om denna policy ändras kommer den uppdaterade versionen att publiceras på denna sida.</p>
+
+  <h2>Kontakt</h2>
+  <p>Om du har frågor om denna integritetspolicy, kontakta oss på:<br>
+  <a href="mailto:johan.gummesson@jgtech.se">johan.gummesson@jgtech.se</a></p>
+</body>
+</html>
